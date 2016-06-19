@@ -36,6 +36,15 @@
   background-color: #EEEEEE;
 }
 
+.cv {
+  padding:20px;
+  background-color:#f4f4f4;
+}
+
+.cv a {
+  font-size: 50px;
+}
+
 // BELOW IS COPY PASTED AND UNTOUCHED
 
 
@@ -165,6 +174,7 @@
 .timeline-footer{
   padding:20px;
   background-color:#f4f4f4;
+  text-align: right;
 }
 .timeline-footer > a{
   cursor: pointer;

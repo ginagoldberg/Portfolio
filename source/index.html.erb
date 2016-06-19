@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
 <html>
+
+
 <div class="banner">
   <div class="title">
     <h1 class = "text-center padded" >Gina Avalon Goldberg
@@ -20,8 +22,8 @@
       <i class="large material-icons">sentiment_satisfied</i>
     </a>
     <ul>
-      <li><a class="btn-floating red"><i class="material-icons">favorite_border</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">work</i></a></li>
+      <li><a href="#footer" class="btn-floating red"><i class="material-icons">favorite_border</i></a></li>
+      <li><a href="#work" class="btn-floating blue"><i class="material-icons">work</i></a></li>
       <li><a href="#timeline" class="btn-floating green"><i class="material-icons"><!-- view_list -->recent_actors</i></a></li>
     </ul>
   </div>
@@ -207,7 +209,6 @@
         </div>
       </li>
 
-      <!-- HERE -->
       <li>
         <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
         <div class="timeline-panel">
@@ -227,23 +228,14 @@
       <li  class="timeline-inverted">
         <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i></a></div>
         <div class="timeline-panel">
-          <div class="timeline-heading">
-          </div>
-          <div class="timeline-body">
-            <h5>CV</h5>
-            <p>Download</p>
-          </div>
-          <div class="timeline-footer">
-            <small></small>
+          <div class="cv">
+            <h5>CV<br>
+              <%= link_to "<i class=\"material-icons\" style=\"font-size:60px;\">cloud_download</i>".html_safe, "images/CV_Gina_Goldberg(13).pdf" %>
+              <a></a>
+            </h5>
           </div>
         </div>
       </li>
-
-
-
-
-
-
 
 
       <li class="clearfix" style="float: none;"></li>
@@ -253,13 +245,18 @@
 </div>
 
 
-<div class="tab-content hidden" id="present">
-  <p>Current skills </p>
+<div class="container">
+  <div class="page-header text-center">
+    <div class="tab-content" id="work">
+      <h4>What can I build?
+        <br><small>Here is a clickable prototype</small><br>
+        <h6></h6>
+        <iframe width="428" height="866" src="//invis.io/U251U4WNK" frameborder="0" allowfullscreen></iframe>
+      </h4>
+    </div>
+  </div>
 </div>
-<div class="tab-content hidden" id="future">
-  <p>....Contact me if you want.</p>
-</div>
-</div>
+
 
 </html>
 
