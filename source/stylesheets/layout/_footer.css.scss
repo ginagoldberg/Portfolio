@@ -7,6 +7,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0px 20px 0px;
 }
 
 #footer li a {
@@ -22,6 +23,7 @@
   opacity: .8;
   transition: opacity 300ms ease;
   color: $darkgrey;
+     font-weight: bold;
 }
 
 #footer a:hover {
