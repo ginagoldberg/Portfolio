@@ -9,6 +9,12 @@
     repeat: no-repeat;
   }
   h1 {
-    margin-top: 0px;
+    margin-top: 0;
+    text-align: center;
+    padding: 15%;
+    small {
+      padding-top: 10px;
+      display:inline-block;
+    }
   }
 }
