@@ -1093,6 +1093,8 @@
 
 .green {
   background-color: #4CAF50 !important;
+  color: #ffffff !important;
+  text-decoration: none;
 }
 
 .green-text {
@@ -2335,6 +2337,9 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 /* Text-level semantics
@@ -4845,6 +4850,7 @@ small {
 
 .btn, .btn-large,
 .btn-flat {
+  color: #ffffff !important;
   border: none;
   border-radius: 2px;
   display: inline-block;
@@ -4919,7 +4925,7 @@ small {
   width: 37px;
   height: 37px;
   line-height: 37px;
-  padding: 0;
+  padding: 15%;
   background-color: #26a69a;
   border-radius: 50%;
   transition: .3s;
@@ -4968,10 +4974,16 @@ button.btn-floating {
 
 .fixed-action-btn.active ul {
   visibility: visible;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .fixed-action-btn.horizontal {
   padding: 0 0 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .fixed-action-btn.horizontal ul {
@@ -5012,12 +5024,12 @@ button.btn-floating {
 .btn-flat {
   box-shadow: none;
   background-color: transparent;
-  color: #343434;
+  color: #ffffff !important;
   cursor: pointer;
 }
 
 .btn-flat.disabled {
-  color: #b3b3b3;
+  color: #ffffff !important;
   cursor: default;
 }
 
